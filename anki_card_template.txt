@@ -1,5 +1,5 @@
 # Front
-<div>{{meanings}}</div>
+<div class="meanings">{{meanings}}</div>
 <div class="misc partsOfSpeech">{{partsOfSpeech}}</div>
 
 
@@ -8,10 +8,7 @@
 
 <hr>
 
-<div class="answers">
-  <div class="characters">{{characters}}</div>
-  <div>{{readings}}</div>
-</div>
+<ruby class="characters">{{characters}}<rt>{{readings}}</rt></ruby>
 
 <div class="misc">
   <a class="link" href="{{url}}">WaniKani</a>
@@ -28,12 +25,12 @@
   background-color: white;
 }
 
-.partsOfSpeech {
-  color: rgba(0, 0, 0, 0.55);
+.meanings {
+  margin-top: 40px;
 }
 
-.answers {
-
+.partsOfSpeech {
+  color: rgba(0, 0, 0, 0.55);
 }
 
 .characters {
@@ -41,7 +38,7 @@
 }
 
 .misc {
-  margin-top: 60px;
+  margin-top: 40px;
   font-size: 20px;
   text-align: right;
 }
@@ -53,4 +50,3 @@
 .level {
 
 }
-
