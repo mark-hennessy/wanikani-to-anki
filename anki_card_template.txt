@@ -8,12 +8,14 @@
 
 <hr>
 
-<ruby class="characters">{{characters}}<rt>{{readings}}</rt></ruby>
+<ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
 
 <div class="misc info">
   <a class="link" href="{{url}}" target="_blank" rel="noopener noreferrer">WaniKani</a>
   <div class="level">Level {{level}}</div>
 </div>
+
+<audio id="audio" src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
 
 
 # Style
@@ -23,7 +25,6 @@
   text-align: center;
   color: rgb(46, 46, 46);
   background-color: white;
-  margin-top: 40px;
   margin-bottom: 40px;
 }
 
