@@ -1,6 +1,6 @@
 # Front
 <div>{{meanings}}</div>
-<div class="partsOfSpeech misc">{{partsOfSpeech}}</div>
+<div class="misc partsOfSpeech">{{partsOfSpeech}}</div>
 
 
 # Back
