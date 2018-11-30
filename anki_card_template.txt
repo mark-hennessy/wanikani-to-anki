@@ -15,7 +15,7 @@
   <div class="level">Level {{level}}</div>
 </div>
 
-<audio id="audio" src="http://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
+<audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
 
 
 # Style
