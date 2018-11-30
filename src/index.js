@@ -6,7 +6,9 @@ import waniKaniAPI from './waniKaniAPI'
 
 const HEADER = '#characters;meanings;readings;partsOfSpeech;level;url'
 
-const formatArray = array => array.join(', ')
+// Some meanings have semi-colons after them for some reason.
+// Semi-colons need to be removed because they are used as column delimiters
+const formatArray = array => array.map(m => m.replace(';', '')).join(', ')
 
 const parseLine = vocabData => {
   const columnData = [
