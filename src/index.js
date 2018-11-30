@@ -17,8 +17,8 @@ const parseLine = vocabData => {
     vocabData.id,
     vocabData.characters,
     formatArray(vocabData.meanings),
-    formatArray(vocabData.readings),
     sanitizeString(vocabData.readings[0]),
+    formatArray(vocabData.readings),
     formatArray(vocabData.partsOfSpeech),
     vocabData.level,
     vocabData.url
