@@ -4,17 +4,21 @@ import { API_KEY } from './config'
 import dataParser from './dataParser'
 import waniKaniAPI from './waniKaniAPI'
 
-const HEADER = '#characters;meanings;readings;partsOfSpeech;level;url'
+const HEADER = '#id;characters;meanings;firstReading;readings;partsOfSpeech;level;url'
 
 // Some meanings have semi-colons after them for some reason.
 // Semi-colons need to be removed because they are used as column delimiters
-const formatArray = array => array.map(m => m.replace(';', '')).join(', ')
+const sanitizeString = string => string.replace(';', '')
+
+const formatArray = array => array.map(sanitizeString).join(', ')
 
 const parseLine = vocabData => {
   const columnData = [
+    vocabData.id,
     vocabData.characters,
     formatArray(vocabData.meanings),
     formatArray(vocabData.readings),
+    sanitizeString(vocabData.readings[0]),
     formatArray(vocabData.partsOfSpeech),
     vocabData.level,
     vocabData.url
@@ -46,7 +50,7 @@ const run = async () => {
     console.log(`Loaded level ${i}`)
 
     // Delay to avoid 429 TOO MANY REQUESTS
-    await new Promise(resolve => setTimeout(resolve, 1000))
+    await new Promise(resolve => setTimeout(resolve, 500))
   }
 
   const data = lineData.join('\n')
