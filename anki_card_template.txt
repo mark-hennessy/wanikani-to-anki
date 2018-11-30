@@ -11,7 +11,7 @@
 <ruby class="characters">{{characters}}<rt>{{readings}}</rt></ruby>
 
 <div class="misc">
-  <a class="link" href="{{url}}">WaniKani</a>
+  <a class="link" href="{{url}}" target="_blank" rel="noopener noreferrer">WaniKani</a>
   <div class="level">Level {{level}}</div>
 </div>
 
