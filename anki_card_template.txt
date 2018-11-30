@@ -1,0 +1,56 @@
+# Front
+<div>{{meanings}}</div>
+<div class="partsOfSpeech misc">{{partsOfSpeech}}</div>
+
+
+# Back
+{{FrontSide}}
+
+<hr>
+
+<div class="answers">
+  <div class="characters">{{characters}}</div>
+  <div>{{readings}}</div>
+</div>
+
+<div class="misc">
+  <a class="link" href="{{url}}">WaniKani</a>
+  <div class="level">Level {{level}}</div>
+</div>
+
+
+# Style
+.card {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: rgb(46, 46, 46);
+  background-color: white;
+}
+
+.partsOfSpeech {
+  color: rgba(0, 0, 0, 0.55);
+}
+
+.answers {
+
+}
+
+.characters {
+  font-size: 80px;
+}
+
+.misc {
+  margin-top: 60px;
+  font-size: 20px;
+  text-align: right;
+}
+
+.link {
+
+}
+
+.level {
+
+}
+
