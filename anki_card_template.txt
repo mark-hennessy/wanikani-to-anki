@@ -1,18 +1,18 @@
 # Front
 <div class="meanings">{{meanings}}</div>
-<div class="misc partsOfSpeech">{{partsOfSpeech}}</div>
+<div class="partsOfSpeech">{{partsOfSpeech}}</div>
 
 
 # Back
 {{FrontSide}}
 
-<hr>
+<hr class="divider">
 
 <ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
 
-<div class="misc info">
-  <a class="link" href="{{url}}" target="_blank" rel="noopener noreferrer">WaniKani</a>
-  <div class="level">Level {{level}}</div>
+<div class="info">
+  <a class="link" href="{{url}}">WaniKani</a>
+<div>Level {{level}}</div>
 </div>
 
 <audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
@@ -21,38 +21,37 @@
 # Style
 .card {
   font-family: sans-serif;
-  font-size: 40px;
   text-align: center;
-  color: rgb(46, 46, 46);
-  background-color: white;
-  margin-bottom: 40px;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .meanings {
-
+  font-size: 2.5rem;
 }
 
-.partsOfSpeech {
-  color: rgba(0, 0, 0, 0.55);
+.partsOfSpeech, .info {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.divider {
+  margin: 1.5rem 0 1.25rem;
 }
 
 .characters {
-  font-size: 80px;
-}
-
-.misc {
-  margin-top: 20px;
-  font-size: 20px;
+  font-family: Meiryo;
+  font-size: 5rem;
 }
 
 .info {
+  margin-right: 1rem;
   text-align: right;
 }
 
+
 .link {
-
-}
-
-.level {
-
+  color: inherit !important;
+  text-decoration: underline;
+  outline: none;
 }
