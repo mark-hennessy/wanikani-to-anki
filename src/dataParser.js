@@ -1,8 +1,9 @@
-const removeUnderscores = stringArray =>
-  stringArray.map(s => s.replace(new RegExp('_', 'g'), ' '))
+const removeUnderscores = stringArray => {
+  return stringArray.map(s => s.replace(new RegExp('_', 'g'), ' '));
+}
 
-const parseVocabResponseData = vocabResponseData =>
-  vocabResponseData.map(({ id, data }) => ({
+const parseVocabResponseData = vocabResponseData => {
+  return vocabResponseData.map(({ id, data }) => ({
     id,
     level: data.level,
     url: data.document_url,
@@ -11,7 +12,8 @@ const parseVocabResponseData = vocabResponseData =>
     readings: data.readings.map(r => r.reading),
     partsOfSpeech: removeUnderscores(data.parts_of_speech),
     kanjiList: data.component_subject_ids,
-  }))
+  }));
+}
 
 export default {
   parseVocabResponseData,

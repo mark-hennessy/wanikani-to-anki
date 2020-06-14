@@ -8,9 +8,13 @@ const HEADER = '#id;characters;meanings;firstReading;readings;partsOfSpeech;leve
 
 // Some meanings have semi-colons after them for some reason.
 // Semi-colons need to be removed because they are used as column delimiters
-const sanitizeString = string => string.replace(';', '')
+const sanitizeString = string => {
+  return string.replace(';', '');
+}
 
-const formatArray = array => array.map(sanitizeString).join(', ')
+const formatArray = array => {
+  return array.map(sanitizeString).join(', ');
+}
 
 const parseLine = vocabData => {
   const columnData = [
@@ -36,7 +40,7 @@ const writeCallback = err => {
   console.log('The file was saved!')
 }
 
-const run = async () => {
+(async () => {
   waniKaniAPI.setKey(API_KEY)
 
   let lineData = [HEADER]
@@ -55,6 +59,4 @@ const run = async () => {
 
   const data = lineData.join('\n')
   fs.writeFile('out/waniKaniAnkiDeck.txt', data, writeCallback)
-}
-
-run()
+})();

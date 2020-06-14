@@ -12,9 +12,13 @@ const setKey = (key) => {
   waniKaniAPI.defaults.headers.common.Authorization = `Bearer ${key}`
 }
 
-const getUser = async () => waniKaniAPI.get(USER)
+const getUser = async () => {
+  return waniKaniAPI.get(USER);
+}
 
-const getSubjectById = async id => waniKaniAPI.get(`${SUBJECTS}/${id}`)
+const getSubjectById = async id => {
+  return waniKaniAPI.get(`${SUBJECTS}/${id}`);
+}
 
 const getSubjectsByIds = async (...ids) =>
   waniKaniAPI.get(SUBJECTS, {
@@ -44,14 +48,17 @@ const getSubjectsByTypeAndLevel = async (types, ...levels) =>
     },
   })
 
-const getKanjiByLevel = async (...levels) =>
-  getSubjectsByTypeAndLevel('kanji', levels)
+const getKanjiByLevel = async (...levels) => {
+  return getSubjectsByTypeAndLevel('kanji', levels);
+}
 
-const getVocabularyByLevel = async (...levels) =>
-  getSubjectsByTypeAndLevel('vocabulary', levels)
+const getVocabularyByLevel = async (...levels) => {
+  return getSubjectsByTypeAndLevel('vocabulary', levels);
+}
 
-const getKanjiAndVocabularyByLevel = async (...levels) =>
-  getSubjectsByTypeAndLevel('kanji,vocabulary', levels)
+const getKanjiAndVocabularyByLevel = async (...levels) => {
+  return getSubjectsByTypeAndLevel('kanji,vocabulary', levels);
+}
 
 export default {
   setKey,
