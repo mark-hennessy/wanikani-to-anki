@@ -7,7 +7,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "change-case": "4.1.1",
-    "csvtojson": "2.0.10",
+    "classnames": "^2.2.6",
     "js-file-download": "0.4.12",
     "json2csv": "5.0.1",
     "react": "16.12.0",

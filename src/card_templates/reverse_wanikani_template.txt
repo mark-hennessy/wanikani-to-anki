@@ -1,0 +1,56 @@
+# Front
+<div class="meanings">{{meanings}}</div>
+<div class="partsOfSpeech">{{partsOfSpeech}}</div>
+
+
+# Back
+{{FrontSide}}
+
+<hr class="divider">
+
+<ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
+
+<div class="info">
+  <a class="link" href="{{url}}">WaniKani</a>
+<div>Level {{level}}</div>
+</div>
+
+<audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
+
+
+# Style
+.card {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.meanings {
+  font-size: 2.5rem;
+}
+
+.partsOfSpeech, .info {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+}
+
+.divider {
+  margin: 1.5rem 0 1.25rem;
+}
+
+.characters {
+  font-family: Meiryo;
+  font-size: 5rem;
+}
+
+.info {
+  margin-right: 1rem;
+  text-align: right;
+}
+
+.link {
+  color: inherit !important;
+  text-decoration: underline;
+  outline: none;
+}
