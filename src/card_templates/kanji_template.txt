@@ -1,1 +1,87 @@
-# TODO
+# Front
+<div class="characters">{{characters}}</div>
+<div class="importantReading">{{importantReading}}</div>
+
+
+# Style
+.card {
+  font-family: sans-serif;
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.characters {
+  font-family: Meiryo;
+  font-size: 5rem;
+}
+
+.importantReading {
+  font-size: 1.25rem;
+}
+
+.divider {
+  margin: 1.5rem 0 1.25rem;
+}
+
+.meanings {
+  font-size: 2.5rem;
+}
+
+.readings {
+  display: inline-flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.reading-section {
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.reading-label {
+  font-weight: bold;
+  white-space: pre;
+}
+
+.wkInfo {
+  font-size: 1.25rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+  text-align: right;
+}
+
+.wkLink {
+  color: inherit !important;
+  text-decoration: underline;
+  outline: none;
+}
+
+
+# Back
+{{FrontSide}}
+
+<hr class="divider">
+
+<div class="meanings">{{meanings}}</div>
+
+<div class="readings">
+  <div class="reading-section">
+    <div class="reading-label">  On: </div>
+    <div class="reading-value">{{onyomi}}</div>
+  </div>
+  <div class="reading-section">
+    <div class="reading-label">Kun: </div>
+    <div class="reading-value">{{kunyomi}}</div>
+  </div>
+  <div class="reading-section">
+    <div class="reading-label">Nan: </div>
+    <div class="reading-value">{{nanori}}</div>
+  </div>
+</div>
+
+<div class="wkInfo">
+  <a class="wkLink" href="{{url}}">WaniKani</a>
+  <div class="wkLevel">Level {{level}}</div>
+</div>

@@ -3,21 +3,6 @@
 <div class="partsOfSpeech">{{partsOfSpeech}}</div>
 
 
-# Back
-{{FrontSide}}
-
-<hr class="divider">
-
-<ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
-
-<div class="wkInfo">
-  <a class="wkLink" href="{{url}}">WaniKani</a>
-<div class="wkLevel">Level {{level}}</div>
-</div>
-
-<audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
-
-
 # Style
 .card {
   font-family: sans-serif;
@@ -56,3 +41,18 @@
   text-decoration: underline;
   outline: none;
 }
+
+
+# Back
+{{FrontSide}}
+
+<hr class="divider">
+
+<ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
+
+<div class="wkInfo">
+  <a class="wkLink" href="{{url}}">WaniKani</a>
+<div class="wkLevel">Level {{level}}</div>
+</div>
+
+<audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
