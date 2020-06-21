@@ -7,5 +7,6 @@ export const objectsToCsvString = async (objects, delimiter) => {
     quote: '',
   });
 
-  return csvString;
+  // prepend # to the CSV header so Anki does not generate a flashcard for it
+  return `#${csvString}`;
 };

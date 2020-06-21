@@ -10,9 +10,9 @@
 
 <ruby class="characters" onclick="document.querySelector('#audio').play()">{{characters}}<rt>{{readings}}</rt></ruby>
 
-<div class="info">
-  <a class="link" href="{{url}}">WaniKani</a>
-<div>Level {{level}}</div>
+<div class="wkInfo">
+  <a class="wkLink" href="{{url}}">WaniKani</a>
+<div class="wkLevel">Level {{level}}</div>
 </div>
 
 <audio id="audio" src="https://assets.languagepod101.com/dictionary/japanese/audiomp3.php?kanji={{characters}}&kana={{firstReading}}" type="audio/mpeg" />
@@ -30,7 +30,7 @@
   font-size: 2.5rem;
 }
 
-.partsOfSpeech, .info {
+.partsOfSpeech {
   font-size: 1.25rem;
   margin-top: 1rem;
 }
@@ -44,12 +44,14 @@
   font-size: 5rem;
 }
 
-.info {
+.wkInfo {
+  font-size: 1.25rem;
+  margin-top: 1rem;
   margin-right: 1rem;
   text-align: right;
 }
 
-.link {
+.wkLink {
   color: inherit !important;
   text-decoration: underline;
   outline: none;

@@ -3,27 +3,23 @@ import './App.scss';
 import generateReverseWaniKaniDeck from './scripts/generateReverseWaniKaniDeck';
 import generateKanjiDeck from './scripts/generateKanjiDeck';
 import cn from 'classnames';
-import { WK_API_KEY_V2 } from './config';
 import * as waniKaniAPI from './utils/waniKaniAPI';
 
 const CID = 'app';
+const WK_API_KEY_V2_STORAGE_KEY = 'WK_API_KEY_V2';
 
 export default function App() {
-  const [apiKey, setApiKey] = useState('');
+  const [apiKey, setApiKey] = useState(localStorage.getItem(WK_API_KEY_V2_STORAGE_KEY) || '');
 
-  const updateApiKey = key => {
-    setApiKey(key);
-    waniKaniAPI.setApiKey(key);
-  };
-
-  // runs after first render
+  // keep API and localStorage in sync with apiKey changes
   useEffect(() => {
-    updateApiKey(WK_API_KEY_V2);
-  }, []);
+    waniKaniAPI.setApiKey(apiKey);
+    localStorage.setItem(WK_API_KEY_V2_STORAGE_KEY, apiKey);
+  }, [apiKey]);
 
   return (
     <div className={CID}>
-      <h3>Open URL in new window if buttons don't work</h3>
+      <h3>Open URL in new window if buttons don't work in codesandbox</h3>
       <div className={cn(`${CID}__controls`)}>
         <div className={cn(`${CID}__key-section`)}>
           <div>WaniKani API Key V2:</div>
@@ -32,8 +28,7 @@ export default function App() {
             type='text'
             value={apiKey}
             onChange={e => {
-              const { value } = e.target;
-              updateApiKey(value);
+              setApiKey(e.target.value);
             }}
           />
         </div>
