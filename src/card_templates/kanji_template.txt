@@ -75,10 +75,12 @@
     <div class="reading-label">Kun: </div>
     <div class="reading-value">{{kunyomi}}</div>
   </div>
+<!--
   <div class="reading-section">
     <div class="reading-label">Nan: </div>
     <div class="reading-value">{{nanori}}</div>
   </div>
+-->
 </div>
 
 <div class="wkInfo">
