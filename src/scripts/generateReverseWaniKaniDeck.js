@@ -8,7 +8,7 @@ const generateReverseWaniKaniDeck = async () => {
   const subjects = await getSubjectsAsync('vocabulary');
   const sortedSubjects = subjects.sort(subjectComparator);
 
-  const subjectData = sortedSubjects.map(({ id, data }) => ({
+  const parsedSubjects = sortedSubjects.map(({ id, data }) => ({
     id,
     characters: data.characters,
     meanings: data.meanings.map(m => m.meaning),
@@ -19,7 +19,7 @@ const generateReverseWaniKaniDeck = async () => {
     url: data.document_url,
   }));
 
-  const formattedSubjectData = subjectData.map(d => ({
+  const formattedSubjects = parsedSubjects.map(d => ({
     id: d.id,
     characters: d.characters,
     meanings: toCommaString(d.meanings),
@@ -30,9 +30,9 @@ const generateReverseWaniKaniDeck = async () => {
     url: d.url,
   }));
 
-  const outputCsvString = await objectsToCsvString(formattedSubjectData, ';');
+  const outputCsvString = await objectsToCsvString(formattedSubjects, ';');
 
-  downloadFile('reverseWaniKaniDeck.csv', outputCsvString);
+  downloadFile('reverse_wk_deck.csv', outputCsvString);
 };
 
 export default generateReverseWaniKaniDeck;

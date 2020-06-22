@@ -9,7 +9,7 @@ const generateKanjiDeck = async () => {
   const subjects = await getSubjectsAsync('kanji');
   const sortedSubjects = subjects.sort(subjectComparator);
 
-  const subjectData = sortedSubjects.map(({ id, data }) => ({
+  const parsedSubjects = sortedSubjects.map(({ id, data }) => ({
     id,
     characters: data.characters,
     meanings: data.meanings.map(m => m.meaning),
@@ -21,7 +21,7 @@ const generateKanjiDeck = async () => {
     url: data.document_url,
   }));
 
-  const formattedSubjectData = subjectData.map(d => ({
+  const formattedSubjects = parsedSubjects.map(d => ({
     id: d.id,
     characters: d.characters,
     meanings: toCommaString(d.meanings),
@@ -33,9 +33,9 @@ const generateKanjiDeck = async () => {
     url: d.url,
   }));
 
-  const outputCsvString = await objectsToCsvString(formattedSubjectData, ';');
+  const outputCsvString = await objectsToCsvString(formattedSubjects, ';');
 
-  downloadFile('kanjiDeck.csv', outputCsvString);
+  downloadFile('kanji_deck.csv', outputCsvString);
 };
 
 export default generateKanjiDeck;
