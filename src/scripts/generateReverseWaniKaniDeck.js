@@ -1,11 +1,11 @@
-import { getSubjectsByTypeAndLevelAsync } from '../utils/waniKaniAPI';
+import { getSubjectsAsync } from '../utils/waniKaniAPI';
 import { subjectComparator } from '../utils/collectionUtils';
 import { removeUnderscores, toCommaString } from '../utils/stringUtils';
 import { downloadFile } from '../utils/fileUtils';
 import { objectsToCsvString } from '../utils/csvUtils';
 
 const generateReverseWaniKaniDeck = async () => {
-  const subjects = await getSubjectsByTypeAndLevelAsync('vocabulary');
+  const subjects = await getSubjectsAsync('vocabulary');
   const sortedSubjects = subjects.sort(subjectComparator);
 
   const subjectData = sortedSubjects.map(({ id, data }) => ({

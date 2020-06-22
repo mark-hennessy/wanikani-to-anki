@@ -1,4 +1,4 @@
-import { getSubjectsByTypeAndLevelAsync } from '../utils/waniKaniAPI';
+import { getSubjectsAsync } from '../utils/waniKaniAPI';
 import { subjectComparator } from '../utils/collectionUtils';
 import { downloadFile } from '../utils/fileUtils';
 import { objectsToCsvString } from '../utils/csvUtils';
@@ -6,7 +6,7 @@ import { toKatakana } from 'wanakana';
 import { toCommaString } from '../utils/stringUtils';
 
 const generateKanjiDeck = async () => {
-  const subjects = await getSubjectsByTypeAndLevelAsync('kanji');
+  const subjects = await getSubjectsAsync('kanji');
   const sortedSubjects = subjects.sort(subjectComparator);
 
   const subjectData = sortedSubjects.map(({ id, data }) => ({

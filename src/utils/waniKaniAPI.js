@@ -8,26 +8,38 @@ export const setApiKey = key => {
   waniKaniAPI.defaults.headers.common.Authorization = `Bearer ${key}`;
 };
 
-export const getSubjectsByTypeAndLevelAsync = async (type, ...levels) => {
-  const subjects = [];
+const getDataAsync = async (url, config) => {
+  const data = [];
 
   const responseData = (
-    await waniKaniAPI.get('/subjects', {
-      params: {
-        types: type,
-        levels: levels?.join(',') || undefined,
-      },
-    })
+    await waniKaniAPI.get(url, config)
   ).data;
 
-  subjects.push(...responseData.data);
+  data.push(...responseData.data);
+
 
   let nextPageUrl = responseData.pages.next_url;
   while (nextPageUrl) {
     const pageResponseData = (await waniKaniAPI.get(nextPageUrl)).data;
-    subjects.push(...pageResponseData.data);
+    data.push(...pageResponseData.data);
     nextPageUrl = pageResponseData.pages.next_url;
   }
 
-  return subjects;
+  return data;
+};
+
+export const getSubjectsAsync = async types => {
+  return getDataAsync('/subjects', {
+    params: {
+      types,
+    },
+  });
+};
+
+export const getStudyMaterialsAsync = async types => {
+  return getDataAsync('/study_materials', {
+    params: {
+      subject_types: types,
+    },
+  });
 };

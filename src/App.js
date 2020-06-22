@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.scss';
 import generateReverseWaniKaniDeck from './scripts/generateReverseWaniKaniDeck';
 import generateKanjiDeck from './scripts/generateKanjiDeck';
+import downloadNotes from './scripts/downloadNotes';
 import cn from 'classnames';
 import * as waniKaniAPI from './utils/waniKaniAPI';
 
@@ -37,6 +38,7 @@ export default function App() {
           Generate Reverse WaniKani Deck
         </button>
         <button onClick={generateKanjiDeck}>Generate Kanji Deck</button>
+        <button onClick={downloadNotes}>Download Notes</button>
       </div>
     </div>
   );
