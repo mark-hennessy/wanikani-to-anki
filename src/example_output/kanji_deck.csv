@@ -52,7 +52,7 @@
 478;木;Tree, Wood;モク, ボク;き, こ;;onyomi;2;https://www.wanikani.com/kanji/%E6%9C%A8
 479;水;Water;スイ;みず;;onyomi;2;https://www.wanikani.com/kanji/%E6%B0%B4
 491;白;White;ハク;しろ, しら;;onyomi;2;https://www.wanikani.com/kanji/%E7%99%BD
-475;文;Writing, Sentence;ブン, モン;;;onyomi;2;https://www.wanikani.com/kanji/%E6%96%87
+475;文;Writing, Sentence;ブン, モン;ふみ;;onyomi;2;https://www.wanikani.com/kanji/%E6%96%87
 472;円;Yen, Round, Circle;エン;まる;;onyomi;2;https://www.wanikani.com/kanji/%E5%86%86
 526;矢;Arrow;シ;や;;kunyomi;3;https://www.wanikani.com/kanji/%E7%9F%A2
 522;市;City;シ;いち;;onyomi;3;https://www.wanikani.com/kanji/%E5%B8%82
@@ -62,7 +62,7 @@
 509;戸;Door;コ;と;;kunyomi;3;https://www.wanikani.com/kanji/%E6%88%B8
 505;太;Fat;タイ, タ;ふと;おお;onyomi;3;https://www.wanikani.com/kanji/%E5%A4%AA
 512;父;Father, Dad;フ;ちち, とう;;kunyomi;3;https://www.wanikani.com/kanji/%E7%88%B6
-506;少;Few, A Little;ショウ;すこ;;onyomi;3;https://www.wanikani.com/kanji/%E5%B0%91
+506;少;Few, A Little;ショウ;すこ, すく;;onyomi;3;https://www.wanikani.com/kanji/%E5%B0%91
 504;友;Friend;ユウ;とも;;onyomi;3;https://www.wanikani.com/kanji/%E5%8F%8B
 513;毛;Fur, Hair;モウ;け;;onyomi;3;https://www.wanikani.com/kanji/%E6%AF%9B
 518;半;Half;ハン;なか;;onyomi;3;https://www.wanikani.com/kanji/%E5%8D%8A
@@ -93,7 +93,7 @@
 552;耳;Ear, Ears;ジ;みみ;;kunyomi;4;https://www.wanikani.com/kanji/%E8%80%B3
 547;早;Early, Fast, Quick;ソウ;はや, さ;;onyomi;4;https://www.wanikani.com/kanji/%E6%97%A9
 548;気;Energy, Spirit;キ, ケ;いき;;onyomi;4;https://www.wanikani.com/kanji/%E6%B0%97
-535;平;Flat, Peace;ヘイ, ヒョウ, ビョウ;たいら, ひら;;onyomi;4;https://www.wanikani.com/kanji/%E5%B9%B3
+535;平;Flat, Peace;ヘイ, ヒョウ, ビョウ;たい, ひら;;onyomi;4;https://www.wanikani.com/kanji/%E5%B9%B3
 557;花;Flower;カ, ケ;はな;;kunyomi;4;https://www.wanikani.com/kanji/%E8%8A%B1
 561;足;Foot, Leg, Sufficient;ソク;あし, た;;onyomi;4;https://www.wanikani.com/kanji/%E8%B6%B3
 536;打;Hit;ダ;う, ぶ;;onyomi;4;https://www.wanikani.com/kanji/%E6%89%93
@@ -104,7 +104,7 @@
 555;男;Man;ダン, ナン;おとこ;;onyomi;4;https://www.wanikani.com/kanji/%E7%94%B7
 528;主;Master, Main;シュ;おも, ぬし;;onyomi;4;https://www.wanikani.com/kanji/%E4%B8%BB
 544;名;Name, Famous;メイ, ミョウ;な;;onyomi;4;https://www.wanikani.com/kanji/%E5%90%8D
-563;不;Not;フ;;;onyomi;4;https://www.wanikani.com/kanji/%E4%B8%8D
+563;不;Not;フ, ブ;;;onyomi;4;https://www.wanikani.com/kanji/%E4%B8%8D
 533;号;Number;ゴウ;;;onyomi;4;https://www.wanikani.com/kanji/%E5%8F%B7
 529;他;Other;タ;ほか;;onyomi;4;https://www.wanikani.com/kanji/%E4%BB%96
 532;去;Past;キョ, コ;さ;;onyomi;4;https://www.wanikani.com/kanji/%E5%8E%BB
@@ -116,7 +116,7 @@
 558;見;See;ケン;み;;kunyomi;4;https://www.wanikani.com/kanji/%E8%A6%8B
 559;貝;Shellfish, Shell;;かい;;kunyomi;4;https://www.wanikani.com/kanji/%E8%B2%9D
 493;石;Stone;セキ;いし;;onyomi;4;https://www.wanikani.com/kanji/%E7%9F%B3
-530;代;Substitute, Replace, Period, Age;ダイ;か, かわ, しろ;;onyomi;4;https://www.wanikani.com/kanji/%E4%BB%A3
+530;代;Substitute, Replace, Period, Age;ダイ, タイ;か, かわ, しろ;;onyomi;4;https://www.wanikani.com/kanji/%E4%BB%A3
 541;礼;Thanks;レイ;;;onyomi;4;https://www.wanikani.com/kanji/%E7%A4%BC
 551;糸;Thread;シ;いと;;kunyomi;4;https://www.wanikani.com/kanji/%E7%B3%B8
 556;町;Town;チョウ;まち;;onyomi;4;https://www.wanikani.com/kanji/%E7%94%BA
@@ -124,7 +124,7 @@
 554;村;Village;ソン;むら;;kunyomi;4;https://www.wanikani.com/kanji/%E6%9D%91
 527;世;World, Generation;セ, セイ;よ;;onyomi;4;https://www.wanikani.com/kanji/%E4%B8%96
 546;年;Year;ネン;とし;;onyomi;4;https://www.wanikani.com/kanji/%E5%B9%B4
-592;角;Angle, Corner;カク;かど, つの;;onyomi;5;https://www.wanikani.com/kanji/%E8%A7%92
+592;角;Angle, Corner, Antler;カク;かど, つの;;onyomi;5;https://www.wanikani.com/kanji/%E8%A7%92
 8884;斤;Axe, Bread Loaf Counter;キン;;;onyomi;5;https://www.wanikani.com/kanji/%E6%96%A4
 604;青;Blue;セイ, ショウ;あお;;onyomi;5;https://www.wanikani.com/kanji/%E9%9D%92
 583;体;Body;タイ;からだ;;onyomi;5;https://www.wanikani.com/kanji/%E4%BD%93
@@ -133,7 +133,7 @@
 591;社;Company;シャ;やしろ;;onyomi;5;https://www.wanikani.com/kanji/%E7%A4%BE
 571;当;Correct, Right, Success;トウ;あ;;onyomi;5;https://www.wanikani.com/kanji/%E5%BD%93
 585;図;Diagram;ズ, ト;え, はか;;onyomi;5;https://www.wanikani.com/kanji/%E5%9B%B3
-572;毎;Every;マイ;ごと;;onyomi;5;https://www.wanikani.com/kanji/%E6%AF%8E
+572;毎;Every, Each;マイ;ごと;;onyomi;5;https://www.wanikani.com/kanji/%E6%AF%8E
 575;羽;Feather, Feathers, Wing, Wings;ウ;はね, は, わ;;kunyomi;5;https://www.wanikani.com/kanji/%E7%BE%BD
 600;林;Forest, Grove;リン;はやし;;kunyomi;5;https://www.wanikani.com/kanji/%E6%9E%97
 580;行;Go;コウ, ギョウ;い, おこな, ゆ;;onyomi;5;https://www.wanikani.com/kanji/%E8%A1%8C
@@ -143,16 +143,16 @@
 584;作;Make;サク, サ;つく;;onyomi;5;https://www.wanikani.com/kanji/%E4%BD%9C
 570;多;Many, Much, Lots Of;タ;おお;;onyomi;5;https://www.wanikani.com/kanji/%E5%A4%9A
 577;肉;Meat;ニク;;;onyomi;5;https://www.wanikani.com/kanji/%E8%82%89
-566;会;Meet;カイ;あ;;onyomi;5;https://www.wanikani.com/kanji/%E4%BC%9A
+566;会;Meet, Meeting;カイ;あ;;onyomi;5;https://www.wanikani.com/kanji/%E4%BC%9A
 565;交;Mix, Mingle;コウ;まじ, ま, か;;onyomi;5;https://www.wanikani.com/kanji/%E4%BA%A4
 596;近;Near, Close;キン, コン;ちか;;onyomi;5;https://www.wanikani.com/kanji/%E8%BF%91
-515;兄;Older Brother, Big Brother, Elder Brother;キョウ;あに, にい;;onyomi;5;https://www.wanikani.com/kanji/%E5%85%84
+515;兄;Older Brother, Big Brother, Elder Brother;キョウ, ケイ;あに, にい;;onyomi;5;https://www.wanikani.com/kanji/%E5%85%84
 603;雨;Rain;ウ;あめ, あま;;kunyomi;5;https://www.wanikani.com/kanji/%E9%9B%A8
 574;米;Rice, America;ベイ, マイ;こめ;;onyomi;5;https://www.wanikani.com/kanji/%E7%B1%B3
 595;走;Run;ソウ;はし;;onyomi;5;https://www.wanikani.com/kanji/%E8%B5%B0
 568;同;Same;ドウ;おな;;onyomi;5;https://www.wanikani.com/kanji/%E5%90%8C
 593;言;Say;ゲン, ゴン;い, こと;;onyomi;5;https://www.wanikani.com/kanji/%E8%A8%80
-578;自;Self, Oneself;ジ, シ;;;onyomi;5;https://www.wanikani.com/kanji/%E8%87%AA
+578;自;Self, Oneself;ジ, シ;みずか;;onyomi;5;https://www.wanikani.com/kanji/%E8%87%AA
 589;形;Shape, Form, Appearance;ケイ, ギョウ;かた, かたち;;onyomi;5;https://www.wanikani.com/kanji/%E5%BD%A2
 539;皮;Skin;ヒ;かわ;;onyomi;5;https://www.wanikani.com/kanji/%E7%9A%AE
 601;空;Sky, Empty;クウ;そら, あ, から, す;;onyomi;5;https://www.wanikani.com/kanji/%E7%A9%BA
@@ -179,7 +179,7 @@
 617;死;Death;シ;し;;onyomi;6;https://www.wanikani.com/kanji/%E6%AD%BB
 851;亡;Death, Deceased;ボウ;な;;onyomi;6;https://www.wanikani.com/kanji/%E4%BA%A1
 629;画;Drawing, Picture, Painting;ガ, カク;;;onyomi;6;https://www.wanikani.com/kanji/%E7%94%BB
-608;地;Earth, Ground;チ, ジ;;;onyomi;6;https://www.wanikani.com/kanji/%E5%9C%B0
+608;地;Earth, Ground, Land;チ, ジ;;;onyomi;6;https://www.wanikani.com/kanji/%E5%9C%B0
 627;東;East;トウ;ひがし;;onyomi;6;https://www.wanikani.com/kanji/%E6%9D%B1
 644;食;Eat, Meal;ショク;た, く;;onyomi;6;https://www.wanikani.com/kanji/%E9%A3%9F
 630;直;Fix, Direct;チョク, ジキ;なお;;onyomi;6;https://www.wanikani.com/kanji/%E7%9B%B4
@@ -204,7 +204,7 @@
 638;星;Star;セイ;ほし;;onyomi;6;https://www.wanikani.com/kanji/%E6%98%9F
 613;州;State, Province, County;シュウ;;;onyomi;6;https://www.wanikani.com/kanji/%E5%B7%9E
 643;茶;Tea;チャ, サ;;;onyomi;6;https://www.wanikani.com/kanji/%E8%8C%B6
-637;思;Think, Thought;シ;おも;;onyomi;6;https://www.wanikani.com/kanji/%E6%80%9D
+637;思;Think, Thought;シ;おも;;kunyomi;6;https://www.wanikani.com/kanji/%E6%80%9D
 628;歩;Walk;ホ;ある, あゆ;;onyomi;6;https://www.wanikani.com/kanji/%E6%AD%A9
 611;向;Yonder, Facing;コウ;む;なた;onyomi;6;https://www.wanikani.com/kanji/%E5%90%91
 623;妹;Younger Sister, Little Sister;マイ;いもうと;;onyomi;6;https://www.wanikani.com/kanji/%E5%A6%B9
@@ -213,7 +213,7 @@
 649;札;Bill, Tag, Label, Note;サツ;ふだ;;onyomi;7;https://www.wanikani.com/kanji/%E6%9C%AD
 675;鳥;Bird;チョウ;とり;;onyomi;7;https://www.wanikani.com/kanji/%E9%B3%A5
 677;黒;Black;コク;くろ;;onyomi;7;https://www.wanikani.com/kanji/%E9%BB%92
-671;船;Boat, Ship;セン;ふね;;onyomi;7;https://www.wanikani.com/kanji/%E8%88%B9
+671;船;Boat, Ship, Vessel;セン;ふね;;onyomi;7;https://www.wanikani.com/kanji/%E8%88%B9
 655;必;Certain;ヒツ;かなら;;onyomi;7;https://www.wanikani.com/kanji/%E5%BF%85
 657;末;End;マツ;すえ;;onyomi;7;https://www.wanikani.com/kanji/%E6%9C%AB
 647;氏;Family Name, Last Name, Surname;シ;うじ;;onyomi;7;https://www.wanikani.com/kanji/%E6%B0%8F
@@ -227,7 +227,7 @@
 663;紙;Paper;シ;かみ;;kunyomi;7;https://www.wanikani.com/kanji/%E7%B4%99
 665;通;Pass Through;ツウ;とお, かよ;;onyomi;7;https://www.wanikani.com/kanji/%E9%80%9A
 650;民;Peoples, People, Nation;ミン;たみ;;onyomi;7;https://www.wanikani.com/kanji/%E6%B0%91
-648;由;Reason;ユウ;よし, よ;;onyomi;7;https://www.wanikani.com/kanji/%E7%94%B1
+648;由;Reason;ユウ, ユ, ユイ;よし, よ;;onyomi;7;https://www.wanikani.com/kanji/%E7%94%B1
 669;理;Reason;リ;ことわり;;onyomi;7;https://www.wanikani.com/kanji/%E7%90%86
 658;校;School;コウ;;;onyomi;7;https://www.wanikani.com/kanji/%E6%A0%A1
 673;雪;Snow;セツ;ゆき;;kunyomi;7;https://www.wanikani.com/kanji/%E9%9B%AA
@@ -265,7 +265,7 @@
 573;池;Pond;チ;いけ;;onyomi;8;https://www.wanikani.com/kanji/%E6%B1%A0
 688;究;Research;キュウ;きわ;;onyomi;8;https://www.wanikani.com/kanji/%E7%A9%B6
 700;道;Road, Street, Path, Way;ドウ;みち;;onyomi;8;https://www.wanikani.com/kanji/%E9%81%93
-685;役;Service, Duty;ヤク;;;onyomi;8;https://www.wanikani.com/kanji/%E5%BD%B9
+685;役;Service, Duty;ヤク, エキ;;;onyomi;8;https://www.wanikani.com/kanji/%E5%BD%B9
 691;研;Sharpen;ケン;と;;onyomi;8;https://www.wanikani.com/kanji/%E7%A0%94
 689;身;Somebody, Someone, Body;シン;み;;onyomi;8;https://www.wanikani.com/kanji/%E8%BA%AB
 690;者;Someone, Somebody;シャ;もの;;onyomi;8;https://www.wanikani.com/kanji/%E8%80%85
@@ -359,13 +359,13 @@
 784;初;First;ショ;はじ, はつ, そ, ぞ;;onyomi;11;https://www.wanikani.com/kanji/%E5%88%9D
 812;味;Flavor, Taste;ミ;あじ;;onyomi;11;https://www.wanikani.com/kanji/%E5%91%B3
 802;追;Follow, Chase;ツイ;お;;kunyomi;11;https://www.wanikani.com/kanji/%E8%BF%BD
-799;神;God;シン;かみ;;onyomi;11;https://www.wanikani.com/kanji/%E7%A5%9E
+799;神;God;シン, ジン;かみ;;onyomi;11;https://www.wanikani.com/kanji/%E7%A5%9E
 805;良;Good;リョウ;よ, い;;onyomi;11;https://www.wanikani.com/kanji/%E8%89%AF
 811;意;Idea;イ;;;onyomi;11;https://www.wanikani.com/kanji/%E6%84%8F
 788;労;Labor;ロウ;いたわ;;onyomi;11;https://www.wanikani.com/kanji/%E5%8A%B4
 801;級;Level, Grade, Rank;キュウ;;;onyomi;11;https://www.wanikani.com/kanji/%E7%B4%9A
 779;好;Like;コウ;す, この;;onyomi;11;https://www.wanikani.com/kanji/%E5%A5%BD
-792;昔;Long Ago, Long Time Ago;;むかし;;kunyomi;11;https://www.wanikani.com/kanji/%E6%98%94
+792;昔;Long Ago, Long Time Ago;セキ, シャク;むかし;;kunyomi;11;https://www.wanikani.com/kanji/%E6%98%94
 783;低;Low;テイ;ひく;;onyomi;11;https://www.wanikani.com/kanji/%E4%BD%8E
 795;育;Nurture, Raise;イク;そだ, はぐく;;onyomi;11;https://www.wanikani.com/kanji/%E8%82%B2
 810;令;Orders;レイ;;;onyomi;11;https://www.wanikani.com/kanji/%E4%BB%A4
@@ -449,7 +449,7 @@
 870;詩;Poem;シ;うた;;onyomi;13;https://www.wanikani.com/kanji/%E8%A9%A9
 869;練;Practice;レン;ね;;onyomi;13;https://www.wanikani.com/kanji/%E7%B7%B4
 884;賞;Prize;ショウ;;;onyomi;13;https://www.wanikani.com/kanji/%E8%B3%9E
-859;問;Problem;モン;と, とん;;onyomi;13;https://www.wanikani.com/kanji/%E5%95%8F
+859;問;Problem, Question;モン;と, とん;;onyomi;13;https://www.wanikani.com/kanji/%E5%95%8F
 873;館;Public Building;カン;;;onyomi;13;https://www.wanikani.com/kanji/%E9%A4%A8
 893;映;Reflect, Reflection;エイ;うつ, は;;onyomi;13;https://www.wanikani.com/kanji/%E6%98%A0
 888;願;Request;ガン;ねが, ねがい;;onyomi;13;https://www.wanikani.com/kanji/%E9%A1%98
@@ -463,7 +463,7 @@
 885;輪;Wheel, Ring, Loop;リン;わ;;onyomi;13;https://www.wanikani.com/kanji/%E8%BC%AA
 921;能;Ability;ノウ;;;onyomi;14;https://www.wanikani.com/kanji/%E8%83%BD
 916;芸;Acting, Art;ゲイ;;;onyomi;14;https://www.wanikani.com/kanji/%E8%8A%B8
-922;術;Art;ジュツ;;;onyomi;14;https://www.wanikani.com/kanji/%E8%A1%93
+922;術;Art, Technique;ジュツ;;;onyomi;14;https://www.wanikani.com/kanji/%E8%A1%93
 926;雰;Atmosphere;フン;;;onyomi;14;https://www.wanikani.com/kanji/%E9%9B%B0
 924;骨;Bone;コツ;ほね;;onyomi;14;https://www.wanikani.com/kanji/%E9%AA%A8
 910;束;Bundle;ソク;たば;;onyomi;14;https://www.wanikani.com/kanji/%E6%9D%9F
@@ -486,14 +486,16 @@
 903;季;Seasons;キ;;;onyomi;14;https://www.wanikani.com/kanji/%E5%AD%A3
 919;技;Skill;ギ;わざ;;onyomi;14;https://www.wanikani.com/kanji/%E6%8A%80
 920;格;Status;カク;;;onyomi;14;https://www.wanikani.com/kanji/%E6%A0%BC
+8963;苺;Strawberry;;いちご;;kunyomi;14;https://www.wanikani.com/kanji/%E8%8B%BA
 927;頑;Stubborn;ガン;;;onyomi;14;https://www.wanikani.com/kanji/%E9%A0%91
 901;囲;Surround;イ;かこ;;onyomi;14;https://www.wanikani.com/kanji/%E5%9B%B2
 914;的;Target, Al, ~Al, Like, ~Like;テキ;まと;;onyomi;14;https://www.wanikani.com/kanji/%E7%9A%84
 906;念;Thought;ネン;;;onyomi;14;https://www.wanikani.com/kanji/%E5%BF%B5
 905;希;Wish;キ;まれ;;onyomi;14;https://www.wanikani.com/kanji/%E5%B8%8C
+8967;狼;Wolf;ロウ;おおかみ;;kunyomi;14;https://www.wanikani.com/kanji/%E7%8B%BC
 952;紀;Account, Narrative;キ;;;onyomi;15;https://www.wanikani.com/kanji/%E7%B4%80
 954;軍;Army;グン;;;onyomi;15;https://www.wanikani.com/kanji/%E8%BB%8D
-934;秋;Autumn, Fall;;あき;;kunyomi;15;https://www.wanikani.com/kanji/%E7%A7%8B
+934;秋;Autumn, Fall;シュウ;あき;;kunyomi;15;https://www.wanikani.com/kanji/%E7%A7%8B
 940;信;Believe, Trust;シン;;;onyomi;15;https://www.wanikani.com/kanji/%E4%BF%A1
 929;岩;Boulder;ガン;いわ;;kunyomi;15;https://www.wanikani.com/kanji/%E5%B2%A9
 956;仏;Buddha;ブツ;ほとけ;;onyomi;15;https://www.wanikani.com/kanji/%E4%BB%8F
@@ -577,13 +579,13 @@
 1021;愛;Love;アイ;まな;;onyomi;17;https://www.wanikani.com/kanji/%E6%84%9B
 997;薬;Medicine, Drug, Drugs;ヤク;くすり;;onyomi;17;https://www.wanikani.com/kanji/%E8%96%AC
 1025;覚;Memorize, Awake;カク;おぼ, さ;;onyomi;17;https://www.wanikani.com/kanji/%E8%A6%9A
+1011;常;Ordinary, Normal, Usual;ジョウ;つね;;onyomi;17;https://www.wanikani.com/kanji/%E5%B8%B8
 998;鼻;Nose;ビ;はな;;kunyomi;17;https://www.wanikani.com/kanji/%E9%BC%BB
 1008;無;Nothing;ム, ブ;な;;onyomi;17;https://www.wanikani.com/kanji/%E7%84%A1
-1011;常;Ordinary, Normal, Usual;ジョウ;つね;;onyomi;17;https://www.wanikani.com/kanji/%E5%B8%B8
 995;原;Original, Fundamental, Field;ゲン;はら;;onyomi;17;https://www.wanikani.com/kanji/%E5%8E%9F
 1006;栄;Prosper, Flourish;エイ;さか;;onyomi;17;https://www.wanikani.com/kanji/%E6%A0%84
 976;喜;Rejoice, Delighted, Pleased;キ;よろこ;;onyomi;17;https://www.wanikani.com/kanji/%E5%96%9C
-1024;恋;Romance;レン;こい;;onyomi;17;https://www.wanikani.com/kanji/%E6%81%8B
+1024;恋;Romance, Love;レン;こい;;onyomi;17;https://www.wanikani.com/kanji/%E6%81%8B
 837;悲;Sad;ヒ;かな;;onyomi;17;https://www.wanikani.com/kanji/%E6%82%B2
 1002;塩;Salt;エン;しお;;kunyomi;17;https://www.wanikani.com/kanji/%E5%A1%A9
 1003;席;Seat;セキ;;;onyomi;17;https://www.wanikani.com/kanji/%E5%B8%AD
@@ -635,24 +637,24 @@
 1069;歴;Continuation;レキ;へ;;onyomi;19;https://www.wanikani.com/kanji/%E6%AD%B4
 1083;続;Continue;ゾク;つづ;;onyomi;19;https://www.wanikani.com/kanji/%E7%B6%9A
 1059;減;Decrease;ゲン;へ;;onyomi;19;https://www.wanikani.com/kanji/%E6%B8%9B
-1067;昆;Descendants;コン;;;onyomi;19;https://www.wanikani.com/kanji/%E6%98%86
 1063;易;Easy;イ, エキ;やさ;;onyomi;19;https://www.wanikani.com/kanji/%E6%98%93
 1087;絡;Entangle, Coil Around, Entwine;ラク;から;;onyomi;19;https://www.wanikani.com/kanji/%E7%B5%A1
 1121;笛;Flute;テキ;ふえ;;onyomi;19;https://www.wanikani.com/kanji/%E7%AC%9B
-1061;容;Form, Appearance, Shape, Figure;ヨウ;;;onyomi;19;https://www.wanikani.com/kanji/%E5%AE%B9
+1061;容;Form, Appearance, Shape, Figure;ヨウ;い;;onyomi;19;https://www.wanikani.com/kanji/%E5%AE%B9
 1076;団;Group;ダン, トン;;;onyomi;19;https://www.wanikani.com/kanji/%E5%9B%A3
 1122;史;History;シ;;;onyomi;19;https://www.wanikani.com/kanji/%E5%8F%B2
+1067;昆;Insect;コン;;;onyomi;19;https://www.wanikani.com/kanji/%E6%98%86
 1080;徒;Junior, Follower;ト;;;onyomi;19;https://www.wanikani.com/kanji/%E5%BE%92
 1073;宙;Midair;チュウ;;;onyomi;19;https://www.wanikani.com/kanji/%E5%AE%99
-1078;混;Mix;コン;ま;;onyomi;19;https://www.wanikani.com/kanji/%E6%B7%B7
+1078;混;Mix;コン;ま, こ;;onyomi;19;https://www.wanikani.com/kanji/%E6%B7%B7
 1085;善;Morally Good, Good;ゼン;;;onyomi;19;https://www.wanikani.com/kanji/%E5%96%84
 1060;順;Order, Sequence;ジュン;;;onyomi;19;https://www.wanikani.com/kanji/%E9%A0%86
 1072;宇;Outer Space;ウ;;;onyomi;19;https://www.wanikani.com/kanji/%E5%AE%87
 1066;詞;Part Of Speech, Speech Particle, Particle Of Speech, Grammar Particle;シ;;;onyomi;19;https://www.wanikani.com/kanji/%E8%A9%9E
 1082;改;Renew;カイ;あらた;;onyomi;19;https://www.wanikani.com/kanji/%E6%94%B9
 1079;乱;Riot;ラン;みだ;;onyomi;19;https://www.wanikani.com/kanji/%E4%B9%B1
-1058;節;Season;セツ;ふし;;onyomi;19;https://www.wanikani.com/kanji/%E7%AF%80
-1084;連;Take Along;レン;つ, つら;;onyomi;19;https://www.wanikani.com/kanji/%E9%80%A3
+1058;節;Season, Joint;セツ;ふし;;onyomi;19;https://www.wanikani.com/kanji/%E7%AF%80
+1084;連;Take Along, Connect;レン;つ, つら;;onyomi;19;https://www.wanikani.com/kanji/%E9%80%A3
 1070;舌;Tongue;ゼツ;した;;kunyomi;19;https://www.wanikani.com/kanji/%E8%88%8C
 1077;暴;Violence;ボウ;あば, ばく;;onyomi;19;https://www.wanikani.com/kanji/%E6%9A%B4
 1064;財;Wealth;サイ, ザイ;;;onyomi;19;https://www.wanikani.com/kanji/%E8%B2%A1
@@ -693,7 +695,7 @@
 1146;責;Blame;セキ;せ;;onyomi;21;https://www.wanikani.com/kanji/%E8%B2%AC
 1145;条;Clause;ジョウ;;;onyomi;21;https://www.wanikani.com/kanji/%E6%9D%A1
 1124;済;Come To An End;サイ;す;;onyomi;21;https://www.wanikani.com/kanji/%E6%B8%88
-1125;委;Committee;イ;;;onyomi;21;https://www.wanikani.com/kanji/%E5%A7%94
+1125;委;Committee;イ;ゆだ;;onyomi;21;https://www.wanikani.com/kanji/%E5%A7%94
 1147;省;Conserve;ショウ, セイ;はぶ;;onyomi;21;https://www.wanikani.com/kanji/%E7%9C%81
 1128;制;Control, System;セイ;;;onyomi;21;https://www.wanikani.com/kanji/%E5%88%B6
 1141;批;Criticism;ヒ;;;onyomi;21;https://www.wanikani.com/kanji/%E6%89%B9
@@ -718,7 +720,7 @@
 1133;資;Resources;シ;;;onyomi;21;https://www.wanikani.com/kanji/%E8%B3%87
 1154;義;Righteousness;ギ;;;onyomi;21;https://www.wanikani.com/kanji/%E7%BE%A9
 1134;権;Rights;ケン;;;onyomi;21;https://www.wanikani.com/kanji/%E6%A8%A9
-1136;派;Sect;ハ;;;onyomi;21;https://www.wanikani.com/kanji/%E6%B4%BE
+1136;派;Sect, Faction;ハ;;;onyomi;21;https://www.wanikani.com/kanji/%E6%B4%BE
 1129;務;Task;ム;つと;;onyomi;21;https://www.wanikani.com/kanji/%E5%8B%99
 1149;税;Tax;ゼイ;;;onyomi;21;https://www.wanikani.com/kanji/%E7%A8%8E
 1150;解;Untie, Solve;カイ;と;;onyomi;21;https://www.wanikani.com/kanji/%E8%A7%A3
@@ -737,7 +739,7 @@
 1160;寝;Lie Down, Lay Down, Sleep;シン;ね;;kunyomi;22;https://www.wanikani.com/kanji/%E5%AF%9D
 1168;営;Manage;エイ;いとな;;onyomi;22;https://www.wanikani.com/kanji/%E5%96%B6
 1159;坊;Monk;ボウ;;;onyomi;22;https://www.wanikani.com/kanji/%E5%9D%8A
-1155;罰;Penalty, Punishment;バツ;ばっ;;onyomi;22;https://www.wanikani.com/kanji/%E7%BD%B0
+1155;罰;Penalty, Punishment;バツ;;;onyomi;22;https://www.wanikani.com/kanji/%E7%BD%B0
 1163;案;Plan;アン;;;onyomi;22;https://www.wanikani.com/kanji/%E6%A1%88
 1172;策;Plan;サク;;;onyomi;22;https://www.wanikani.com/kanji/%E7%AD%96
 1181;提;Present, Submit;テイ;;;onyomi;22;https://www.wanikani.com/kanji/%E6%8F%90
@@ -758,7 +760,7 @@
 1173;藤;Wisteria;トウ, ドウ;ふじ;;kunyomi;22;https://www.wanikani.com/kanji/%E8%97%A4
 1213;呼;Call;コ;よ;;kunyomi;23;https://www.wanikani.com/kanji/%E5%91%BC
 1195;崎;Cape;キ;さき;;kunyomi;23;https://www.wanikani.com/kanji/%E5%B4%8E
-1210;施;Carry Out;シ;ほどこ;;onyomi;23;https://www.wanikani.com/kanji/%E6%96%BD
+1210;施;Carry Out;シ, セ;ほどこ;;onyomi;23;https://www.wanikani.com/kanji/%E6%96%BD
 1214;城;Castle;ジョウ;しろ;;kunyomi;23;https://www.wanikani.com/kanji/%E5%9F%8E
 1192;護;Defend;ゴ;;;onyomi;23;https://www.wanikani.com/kanji/%E8%AD%B7
 1190;鬼;Demon;キ;おに;;onyomi;23;https://www.wanikani.com/kanji/%E9%AC%BC
@@ -825,7 +827,7 @@
 1268;属;Belong;ゾク;;;onyomi;25;https://www.wanikani.com/kanji/%E5%B1%9E
 1265;捕;Catch;ホ;つか, とら;;onyomi;25;https://www.wanikani.com/kanji/%E6%8D%95
 8860;捉;Catch;ソク;とら;;kunyomi;25;https://www.wanikani.com/kanji/%E6%8D%89
-1262;候;Climate, Weather, Candidate;コウ;;;onyomi;25;https://www.wanikani.com/kanji/%E5%80%99
+1262;候;Climate, Weather, Candidate;コウ;そうろう;;onyomi;25;https://www.wanikani.com/kanji/%E5%80%99
 1276;輩;Comrade;ハイ;;;onyomi;25;https://www.wanikani.com/kanji/%E8%BC%A9
 1252;況;Condition;キョウ;;;onyomi;25;https://www.wanikani.com/kanji/%E6%B3%81
 1254;響;Echo, Reverberation, Resound;キョウ;ひび;;onyomi;25;https://www.wanikani.com/kanji/%E9%9F%BF
@@ -871,7 +873,7 @@
 1301;徴;Indication, Sign;チョウ;;;onyomi;26;https://www.wanikani.com/kanji/%E5%BE%B4
 1282;授;Instruct;ジュ;さず;;onyomi;26;https://www.wanikani.com/kanji/%E6%8E%88
 1289;鉛;Lead;エン;なまり;;onyomi;26;https://www.wanikani.com/kanji/%E9%89%9B
-1299;郵;Mail;ユウ;;;onyomi;26;https://www.wanikani.com/kanji/%E9%83%B5
+1299;郵;Mail, Post;ユウ;;;onyomi;26;https://www.wanikani.com/kanji/%E9%83%B5
 1300;針;Needle;シン;はり;;onyomi;26;https://www.wanikani.com/kanji/%E9%87%9D
 1293;従;Obey, Accompany, Follow;ジュウ;したが;;onyomi;26;https://www.wanikani.com/kanji/%E5%BE%93
 1309;豚;Pork, Pig;トン;ぶた;;kunyomi;26;https://www.wanikani.com/kanji/%E8%B1%9A
@@ -956,7 +958,7 @@
 1407;添;Append;テン;そ;;onyomi;29;https://www.wanikani.com/kanji/%E6%B7%BB
 1398;寄;Approach;キ;よ;;onyomi;29;https://www.wanikani.com/kanji/%E5%AF%84
 1404;宴;Banquet;エン;うたげ;;onyomi;29;https://www.wanikani.com/kanji/%E5%AE%B4
-1399;板;Board;ハン;いた;;onyomi;29;https://www.wanikani.com/kanji/%E6%9D%BF
+1399;板;Board;ハン, バン;いた;;onyomi;29;https://www.wanikani.com/kanji/%E6%9D%BF
 1389;壊;Break;カイ;こわ;;onyomi;29;https://www.wanikani.com/kanji/%E5%A3%8A
 1394;督;Coach;トク;;;onyomi;29;https://www.wanikani.com/kanji/%E7%9D%A3
 1392;僚;Colleague;リョウ;;;onyomi;29;https://www.wanikani.com/kanji/%E5%83%9A
@@ -991,6 +993,7 @@
 1438;飾;Decorate;ショク;かざ;;onyomi;30;https://www.wanikani.com/kanji/%E9%A3%BE
 1425;預;Deposit;ヨ;あず;;onyomi;30;https://www.wanikani.com/kanji/%E9%A0%90
 1421;版;Edition;ハン;;;onyomi;30;https://www.wanikani.com/kanji/%E7%89%88
+8965;柵;Fence;サク;しがらみ;;onyomi;30;https://www.wanikani.com/kanji/%E6%9F%B5
 1418;旗;Flag;キ;はた;;onyomi;30;https://www.wanikani.com/kanji/%E6%97%97
 1433;浮;Float;フ;う, うわ;;kunyomi;30;https://www.wanikani.com/kanji/%E6%B5%AE
 1437;越;Go Beyond;エツ;こ;;onyomi;30;https://www.wanikani.com/kanji/%E8%B6%8A
@@ -1032,7 +1035,7 @@
 1471;陸;Land;リク;;;onyomi;31;https://www.wanikani.com/kanji/%E9%99%B8
 1477;探;Look For, Search For;タン;さが, さぐ;;onyomi;31;https://www.wanikani.com/kanji/%E6%8E%A2
 1449;豪;Luxurious;ゴウ;;;onyomi;31;https://www.wanikani.com/kanji/%E8%B1%AA
-1450;鑑;Model;カン;;;onyomi;31;https://www.wanikani.com/kanji/%E9%91%91
+1450;鑑;Model;カン;かんが;;onyomi;31;https://www.wanikani.com/kanji/%E9%91%91
 1456;泥;Mud;デイ;どろ;;onyomi;31;https://www.wanikani.com/kanji/%E6%B3%A5
 1462;巣;Nest;ソウ;す;;kunyomi;31;https://www.wanikani.com/kanji/%E5%B7%A3
 1448;普;Normal;フ;;;onyomi;31;https://www.wanikani.com/kanji/%E6%99%AE
@@ -1091,6 +1094,7 @@
 1538;著;Author;チョ;いちじる, あらわ;;onyomi;33;https://www.wanikani.com/kanji/%E8%91%97
 1542;裏;Backside, Underside, Reverse;リ;うら;;kunyomi;33;https://www.wanikani.com/kanji/%E8%A3%8F
 1514;閉;Closed, Close, Closure;ヘイ;し, と;;onyomi;33;https://www.wanikani.com/kanji/%E9%96%89
+8964;股;Crotch, Groin, Fork;コ;また, もも;;onyomi;33;https://www.wanikani.com/kanji/%E8%82%A1
 1519;垂;Dangle, Drip;スイ;た;;onyomi;33;https://www.wanikani.com/kanji/%E5%9E%82
 1534;漠;Desert, Vague;バク;;;onyomi;33;https://www.wanikani.com/kanji/%E6%BC%A0
 1530;異;Differ;イ;こと;;onyomi;33;https://www.wanikani.com/kanji/%E7%95%B0
@@ -1122,7 +1126,7 @@
 1574;枝;Branch;シ;えだ;;onyomi;34;https://www.wanikani.com/kanji/%E6%9E%9D
 1566;揮;Brandish;キ;;;onyomi;34;https://www.wanikani.com/kanji/%E6%8F%AE
 1577;刻;Carve;コク;きざ;;onyomi;34;https://www.wanikani.com/kanji/%E5%88%BB
-1575;爪;Claw;ソウ;つま, つめ;;kunyomi;34;https://www.wanikani.com/kanji/%E7%88%AA
+1575;爪;Claw;ソウ;つめ, つま;;kunyomi;34;https://www.wanikani.com/kanji/%E7%88%AA
 1572;承;Consent;ショウ;うけたまわ;;onyomi;34;https://www.wanikani.com/kanji/%E6%89%BF
 1562;幕;Curtain;マク, バク;とばり;;onyomi;34;https://www.wanikani.com/kanji/%E5%B9%95
 1560;紅;Deep Red, Crimson;コウ;べに, くれない;;onyomi;34;https://www.wanikani.com/kanji/%E7%B4%85
@@ -1139,7 +1143,7 @@
 1553;芋;Potato;;いも;;kunyomi;34;https://www.wanikani.com/kanji/%E8%8A%8B
 1555;純;Pure;ジュン;;;onyomi;34;https://www.wanikani.com/kanji/%E7%B4%94
 1564;薦;Recommend;セン;すす;;onyomi;34;https://www.wanikani.com/kanji/%E8%96%A6
-1549;丼;Rice Bowl;ドン;どんぶり;;onyomi;34;https://www.wanikani.com/kanji/%E4%B8%BC
+1549;丼;Rice Bowl;;どん, どんぶり;;kunyomi;34;https://www.wanikani.com/kanji/%E4%B8%BC
 1578;腐;Rot;フ;くさ;;onyomi;34;https://www.wanikani.com/kanji/%E8%85%90
 1567;沿;Run Alongside;エン;そ;;onyomi;34;https://www.wanikani.com/kanji/%E6%B2%BF
 1561;射;Shoot;シャ;い, さ, う;;onyomi;34;https://www.wanikani.com/kanji/%E5%B0%84
@@ -1156,6 +1160,7 @@
 1598;噌;Boisterous;ソ;;;onyomi;35;https://www.wanikani.com/kanji/%E5%99%8C
 1580;彫;Carve;チョウ;ほ;;onyomi;35;https://www.wanikani.com/kanji/%E5%BD%AB
 1596;杉;Cedar;;すぎ;;kunyomi;35;https://www.wanikani.com/kanji/%E6%9D%89
+8910;喋;Chat, Talk;チョウ;しゃべ;;kunyomi;35;https://www.wanikani.com/kanji/%E5%96%8B
 1607;銅;Copper;ドウ;あかがね;;onyomi;35;https://www.wanikani.com/kanji/%E9%8A%85
 1583;舎;Cottage;シャ;;;onyomi;35;https://www.wanikani.com/kanji/%E8%88%8E
 1603;酔;Drunk;スイ;よ;;onyomi;35;https://www.wanikani.com/kanji/%E9%85%94
@@ -1189,7 +1194,7 @@
 1614;将;Commander;ショウ;;;onyomi;36;https://www.wanikani.com/kanji/%E5%B0%86
 1634;舞;Dance;ブ;まい, ま;;onyomi;36;https://www.wanikani.com/kanji/%E8%88%9E
 1618;債;Debt;サイ;;;onyomi;36;https://www.wanikani.com/kanji/%E5%82%B5
-1635;伎;Deed;キ;わざ;;onyomi;36;https://www.wanikani.com/kanji/%E4%BC%8E
+1635;伎;Deed;キ, ギ;わざ;;onyomi;36;https://www.wanikani.com/kanji/%E4%BC%8E
 1640;鹿;Deer;ロク;か, しか;;kunyomi;36;https://www.wanikani.com/kanji/%E9%B9%BF
 1624;換;Exchange;カン;か;;onyomi;36;https://www.wanikani.com/kanji/%E6%8F%9B
 1642;牙;Fang, Tusk;ゲ, ガ;きば;;onyomi;36;https://www.wanikani.com/kanji/%E7%89%99
@@ -1209,6 +1214,7 @@
 1619;及;Reach;キュウ;およ;;onyomi;36;https://www.wanikani.com/kanji/%E5%8F%8A
 1639;依;Reliant, Dependent;イ;よ;;onyomi;36;https://www.wanikani.com/kanji/%E4%BE%9D
 1628;縄;Rope;ジョウ;なわ;;onyomi;36;https://www.wanikani.com/kanji/%E7%B8%84
+8911;鮭;Salmon;カイ, ケイ;さけ, しゃけ;;kunyomi;36;https://www.wanikani.com/kanji/%E9%AE%AD
 1636;踏;Step;トウ;ふ;;onyomi;36;https://www.wanikani.com/kanji/%E8%B8%8F
 1617;伸;Stretch;シン;の;;kunyomi;36;https://www.wanikani.com/kanji/%E4%BC%B8
 1612;姓;Surname, Family Name;セイ, ショウ;;;onyomi;36;https://www.wanikani.com/kanji/%E5%A7%93
@@ -1228,7 +1234,7 @@
 1662;遣;Dispatch;ケン;つか, や;;onyomi;37;https://www.wanikani.com/kanji/%E9%81%A3
 1672;掲;Display;ケイ;かか;;onyomi;37;https://www.wanikani.com/kanji/%E6%8E%B2
 1658;爆;Explode;バク;は;;onyomi;37;https://www.wanikani.com/kanji/%E7%88%86
-8862;眉;Eyebrows;ミ;まゆ;;onyomi;37;https://www.wanikani.com/kanji/%E7%9C%89
+8862;眉;Eyebrows;ミ, ビ;まゆ;;onyomi;37;https://www.wanikani.com/kanji/%E7%9C%89
 1670;恵;Favor;エ, ケイ;めぐ;;onyomi;37;https://www.wanikani.com/kanji/%E6%81%B5
 1645;漁;Fishing;ギョ, リョウ;あさ;;onyomi;37;https://www.wanikani.com/kanji/%E6%BC%81
 1665;香;Fragrance;コウ, キョウ;かお, か;;onyomi;37;https://www.wanikani.com/kanji/%E9%A6%99
@@ -1254,6 +1260,7 @@
 1685;伴;Accompany;ハン;ともな;;onyomi;38;https://www.wanikani.com/kanji/%E4%BC%B4
 1676;齢;Age;レイ;よわい;;onyomi;38;https://www.wanikani.com/kanji/%E9%BD%A2
 1677;宜;Best Regards;ギ;よろ;;kunyomi;38;https://www.wanikani.com/kanji/%E5%AE%9C
+8966;噛;Bite, Chew;;か, かじ;;kunyomi;38;https://www.wanikani.com/kanji/%E5%99%9B
 1702;賄;Bribe;ワイ;まかな;;onyomi;38;https://www.wanikani.com/kanji/%E8%B3%84
 1703;賂;Bribe;ロ;;;onyomi;38;https://www.wanikani.com/kanji/%E8%B3%82
 1692;房;Cluster;ボウ;ふさ;;onyomi;38;https://www.wanikani.com/kanji/%E6%88%BF
@@ -1285,11 +1292,12 @@
 1699;緒;Together;ショ;お;;onyomi;38;https://www.wanikani.com/kanji/%E7%B7%92
 1697;盤;Tray, Platter, Board;バン;;;onyomi;38;https://www.wanikani.com/kanji/%E7%9B%A4
 1714;控;Abstain;コウ;ひか;;kunyomi;39;https://www.wanikani.com/kanji/%E6%8E%A7
+8912;宛;Address;エン;あて;;kunyomi;39;https://www.wanikani.com/kanji/%E5%AE%9B
 1721;充;Allocate;ジュウ;あ, み;;onyomi;39;https://www.wanikani.com/kanji/%E5%85%85
 1717;渋;Bitter, Astringent, Reluctant;ジュウ;しぶ;;onyomi;39;https://www.wanikani.com/kanji/%E6%B8%8B
 1711;岐;Branch Off;キ, ギ;;;onyomi;39;https://www.wanikani.com/kanji/%E5%B2%90
-1725;埋;Bury;マイ;う;;kunyomi;39;https://www.wanikani.com/kanji/%E5%9F%8B
-1709;鈴;Buzzer, Small Bell;リン;すず;;onyomi;39;https://www.wanikani.com/kanji/%E9%88%B4
+1725;埋;Bury;マイ;う, うず;;kunyomi;39;https://www.wanikani.com/kanji/%E5%9F%8B
+1709;鈴;Buzzer, Small Bell;リン, レイ;すず;;onyomi;39;https://www.wanikani.com/kanji/%E9%88%B4
 1726;埼;Cape;キ;さい;;kunyomi;39;https://www.wanikani.com/kanji/%E5%9F%BC
 1716;棋;Chess Piece;キ;ご;;onyomi;39;https://www.wanikani.com/kanji/%E6%A3%8B
 1736;譲;Defer;ジョウ;ゆず;;onyomi;39;https://www.wanikani.com/kanji/%E8%AD%B2
@@ -1312,12 +1320,13 @@
 1724;圏;Range, Sphere;ケン;;;onyomi;39;https://www.wanikani.com/kanji/%E5%9C%8F
 1723;勧;Recommend;カン;すす;;onyomi;39;https://www.wanikani.com/kanji/%E5%8B%A7
 1730;拒;Refuse, Refusal;キョ;こば;;onyomi;39;https://www.wanikani.com/kanji/%E6%8B%92
-1735;稲;Rice Plant;;いね, いな;;kunyomi;39;https://www.wanikani.com/kanji/%E7%A8%B2
+1735;稲;Rice Plant;トウ;いね, いな;;kunyomi;39;https://www.wanikani.com/kanji/%E7%A8%B2
 1727;奪;Rob;ダツ;うば;;kunyomi;39;https://www.wanikani.com/kanji/%E5%A5%AA
 1741;鋼;Steel;コウ;はがね;;onyomi;39;https://www.wanikani.com/kanji/%E9%8B%BC
 1732;甲;Turtle Shell;コウ, カン;か;;onyomi;39;https://www.wanikani.com/kanji/%E7%94%B2
 1715;壁;Wall;ヘキ;かべ;;kunyomi;39;https://www.wanikani.com/kanji/%E5%A3%81
 1734;祉;Welfare;シ;;;onyomi;39;https://www.wanikani.com/kanji/%E7%A5%89
+8969;拉;Abduct, Pull;ラ;;;onyomi;40;https://www.wanikani.com/kanji/%E6%8B%89
 1757;敏;Alert;ビン;;;onyomi;40;https://www.wanikani.com/kanji/%E6%95%8F
 1751;吹;Blow;スイ;ふ;;kunyomi;40;https://www.wanikani.com/kanji/%E5%90%B9
 1746;唱;Chant;ショウ;とな;;onyomi;40;https://www.wanikani.com/kanji/%E5%94%B1
@@ -1338,6 +1347,7 @@
 1760;殿;Milord, Lord;デン;との, どの;;onyomi;40;https://www.wanikani.com/kanji/%E6%AE%BF
 1766;殖;Multiply;ショク;ふ;;onyomi;40;https://www.wanikani.com/kanji/%E6%AE%96
 1772;隣;Neighbor, Neighbour;リン;となり;;onyomi;40;https://www.wanikani.com/kanji/%E9%9A%A3
+8955;麺;Noodles;メン;;;onyomi;40;https://www.wanikani.com/kanji/%E9%BA%BA
 1764;繁;Overgrown;ハン;しげ;;onyomi;40;https://www.wanikani.com/kanji/%E7%B9%81
 1753;巡;Patrol;ジュン;めぐ;;onyomi;40;https://www.wanikani.com/kanji/%E5%B7%A1
 1745;柱;Pillar;チュウ;はしら;;onyomi;40;https://www.wanikani.com/kanji/%E6%9F%B1
@@ -1350,6 +1360,7 @@
 1762;獲;Seize;カク;え;;onyomi;40;https://www.wanikani.com/kanji/%E7%8D%B2
 1758;鋭;Sharp;エイ;するど;;onyomi;40;https://www.wanikani.com/kanji/%E9%8B%AD
 1759;敷;Spread;フ;しき, し;;kunyomi;40;https://www.wanikani.com/kanji/%E6%95%B7
+8909;妖;Supernatural, Enchanting;ヨウ;あや;;onyomi;40;https://www.wanikani.com/kanji/%E5%A6%96
 1771;透;Transparent;トウ;す;;onyomi;40;https://www.wanikani.com/kanji/%E9%80%8F
 1783;棄;Abandon;キ;;;onyomi;41;https://www.wanikani.com/kanji/%E6%A3%84
 8886;凄;Amazing, Wonderful, Terrible, Awful;セイ;すご;;onyomi;41;https://www.wanikani.com/kanji/%E5%87%84
@@ -1371,9 +1382,11 @@
 1802;侵;Invade;シン;おか;;onyomi;41;https://www.wanikani.com/kanji/%E4%BE%B5
 8836;嘘;Lie;;うそ;;kunyomi;41;https://www.wanikani.com/kanji/%E5%98%98
 1798;鉱;Mineral;コウ;あらがね;;onyomi;41;https://www.wanikani.com/kanji/%E9%89%B1
+8922;喧;Noisy, Picky;ケン;やかま;;onyomi;41;https://www.wanikani.com/kanji/%E5%96%A7
 1775;伺;Pay Respects;シ;うかが;;kunyomi;41;https://www.wanikani.com/kanji/%E4%BC%BA
 1776;徹;Penetrate, Clear;テツ;;;onyomi;41;https://www.wanikani.com/kanji/%E5%BE%B9
 1777;瀬;Rapids, Shallows;ライ;せ;;kunyomi;41;https://www.wanikani.com/kanji/%E7%80%AC
+8923;嘩;Rowdy;カ;;;onyomi;41;https://www.wanikani.com/kanji/%E5%98%A9
 1789;墟;Ruins;キョ;;;onyomi;41;https://www.wanikani.com/kanji/%E5%A2%9F
 1787;酎;Sake;チュウ, チュ;かも;;onyomi;41;https://www.wanikani.com/kanji/%E9%85%8E
 1779;措;Set Aside;ソ;;;onyomi;41;https://www.wanikani.com/kanji/%E6%8E%AA
@@ -1386,7 +1399,7 @@
 1820;析;Analysis;セキ;;;onyomi;42;https://www.wanikani.com/kanji/%E6%9E%90
 1812;弧;Arc;コ;;;onyomi;42;https://www.wanikani.com/kanji/%E5%BC%A7
 1805;到;Arrival;トウ;;;onyomi;42;https://www.wanikani.com/kanji/%E5%88%B0
-1822;軸;Axis;ジク;;;onyomi;42;https://www.wanikani.com/kanji/%E8%BB%B8
+1822;軸;Axis, Axle;ジク;;;onyomi;42;https://www.wanikani.com/kanji/%E8%BB%B8
 1831;綱;Cable;コウ;つな;;kunyomi;42;https://www.wanikani.com/kanji/%E7%B6%B1
 1813;挑;Challenge;チョウ;いど;;onyomi;42;https://www.wanikani.com/kanji/%E6%8C%91
 1827;焦;Char;ショウ;こ, あせ;;onyomi;42;https://www.wanikani.com/kanji/%E7%84%A6
@@ -1397,7 +1410,7 @@
 1810;床;Floor, Bed;ショウ;ゆか, とこ;;onyomi;42;https://www.wanikani.com/kanji/%E5%BA%8A
 1816;握;Grip;アク;にぎ;;onyomi;42;https://www.wanikani.com/kanji/%E6%8F%A1
 1821;枢;Hinge;スウ;からくり;;onyomi;42;https://www.wanikani.com/kanji/%E6%9E%A2
-1815;揚;Hoist;ヨウ;あ;;onyomi;42;https://www.wanikani.com/kanji/%E6%8F%9A
+1815;揚;Hoist;ヨウ;あ;;kunyomi;42;https://www.wanikani.com/kanji/%E6%8F%9A
 1826;潟;Lagoon;セキ;かた;;kunyomi;42;https://www.wanikani.com/kanji/%E6%BD%9F
 1834;芝;Lawn;シ;しば;;kunyomi;42;https://www.wanikani.com/kanji/%E8%8A%9D
 1833;肝;Liver;カン;きも;;onyomi;42;https://www.wanikani.com/kanji/%E8%82%9D
@@ -1420,6 +1433,7 @@
 1866;沼;Bog;ショウ;ぬま;;kunyomi;43;https://www.wanikani.com/kanji/%E6%B2%BC
 1848;朗;Bright;ロウ;ほが;;onyomi;43;https://www.wanikani.com/kanji/%E6%9C%97
 1859;摩;Chafe;マ;さす;;onyomi;43;https://www.wanikani.com/kanji/%E6%91%A9
+1842;趣;Charm;シュ;おもむき;;onyomi;43;https://www.wanikani.com/kanji/%E8%B6%A3
 1858;懲;Chastise;チョウ;こ;;onyomi;43;https://www.wanikani.com/kanji/%E6%87%B2
 1856;慰;Consolation;イ;なぐさ;;onyomi;43;https://www.wanikani.com/kanji/%E6%85%B0
 1857;懇;Courteous;コン;;;onyomi;43;https://www.wanikani.com/kanji/%E6%87%87
@@ -1430,7 +1444,6 @@
 1845;露;Expose, Dew;ロ, ロウ;つゆ;;onyomi;43;https://www.wanikani.com/kanji/%E9%9C%B2
 1870;炉;Furnace;ロ;いろり;;onyomi;43;https://www.wanikani.com/kanji/%E7%82%89
 1864;柔;Gentle;ジュウ, ニュウ;やわ;;onyomi;43;https://www.wanikani.com/kanji/%E6%9F%94
-1842;趣;Gist;シュ;おもむき;;onyomi;43;https://www.wanikani.com/kanji/%E8%B6%A3
 1860;擦;Grate;サツ;こす, す;;onyomi;43;https://www.wanikani.com/kanji/%E6%93%A6
 1871;琴;Harp;;こと;;kunyomi;43;https://www.wanikani.com/kanji/%E7%90%B4
 1851;垣;Hedge, Fence;;かき;;kunyomi;43;https://www.wanikani.com/kanji/%E5%9E%A3
@@ -1451,10 +1464,10 @@
 1849;潮;Tide;チョウ;しお;;onyomi;43;https://www.wanikani.com/kanji/%E6%BD%AE
 1841;貢;Tribute;コウ;みつ;;onyomi;43;https://www.wanikani.com/kanji/%E8%B2%A2
 1837;誰;Who;;だれ;;kunyomi;43;https://www.wanikani.com/kanji/%E8%AA%B0
-1877;刃;Blade;ジン, ニン;は;;kunyomi;44;https://www.wanikani.com/kanji/%E5%88%83
+1877;刃;Blade;ジン, ニン;は, やいば;;kunyomi;44;https://www.wanikani.com/kanji/%E5%88%83
 1898;缶;Can, Tin Can;カン;;;onyomi;44;https://www.wanikani.com/kanji/%E7%BC%B6
 1902;砲;Cannon;ホウ;;;onyomi;44;https://www.wanikani.com/kanji/%E7%A0%B2
-1896;笠;Conical Hat;;かさ;;kunyomi;44;https://www.wanikani.com/kanji/%E7%AC%A0
+1896;笠;Conical Hat;リュウ;かさ;;kunyomi;44;https://www.wanikani.com/kanji/%E7%AC%A0
 1873;竜;Dragon;リュウ;たつ;;onyomi;44;https://www.wanikani.com/kanji/%E7%AB%9C
 8883;拶;Draw Close, Be Imminent;サツ;;;onyomi;44;https://www.wanikani.com/kanji/%E6%8B%B6
 1874;縁;Edge;エン, ネン;ふち;;onyomi;44;https://www.wanikani.com/kanji/%E7%B8%81
@@ -1650,6 +1663,7 @@
 2080;劣;Inferiority;レツ;おと;;onyomi;49;https://www.wanikani.com/kanji/%E5%8A%A3
 2081;勘;Intuition;カン;;;onyomi;49;https://www.wanikani.com/kanji/%E5%8B%98
 2071;隔;Isolate;カク;へだ;;onyomi;49;https://www.wanikani.com/kanji/%E9%9A%94
+8913;蹴;Kick;シュウ;け;;kunyomi;49;https://www.wanikani.com/kanji/%E8%B9%B4
 2075;桑;Mulberry;ソウ;くわ;;kunyomi;49;https://www.wanikani.com/kanji/%E6%A1%91
 2063;尼;Nun;ニ;あま;;onyomi;49;https://www.wanikani.com/kanji/%E5%B0%BC
 2077;珠;Pearl;シュ;たま;;onyomi;49;https://www.wanikani.com/kanji/%E7%8F%A0
@@ -1667,13 +1681,13 @@
 2076;潤;Watered;ジュン;うるお, うる;;onyomi;49;https://www.wanikani.com/kanji/%E6%BD%A4
 2109;偶;Accidentally;グウ;たま;;onyomi;50;https://www.wanikani.com/kanji/%E5%81%B6
 2085;巧;Adept;コウ;うま, たく;;onyomi;50;https://www.wanikani.com/kanji/%E5%B7%A7
-2091;鰐;Alligator;;わに;;kunyomi;50;https://www.wanikani.com/kanji/%E9%B0%90
+2091;鰐;Alligator, Crocodile;;わに;;kunyomi;50;https://www.wanikani.com/kanji/%E9%B0%90
 2113;把;Bundle, Grasp;ハ, ワ;;;onyomi;50;https://www.wanikani.com/kanji/%E6%8A%8A
 2087;駄;Burdensome;ダ, タ;;;onyomi;50;https://www.wanikani.com/kanji/%E9%A7%84
 2116;洞;Cave;ドウ;ほら;;onyomi;50;https://www.wanikani.com/kanji/%E6%B4%9E
 2108;伯;Chief;ハク, オ;;;onyomi;50;https://www.wanikani.com/kanji/%E4%BC%AF
 2088;唐;China, Sudden;トウ;から;;onyomi;50;https://www.wanikani.com/kanji/%E5%94%90
-2094;彰;Clear, Patent;ショウ;;;onyomi;50;https://www.wanikani.com/kanji/%E5%BD%B0
+2094;彰;Clear;ショウ;;;onyomi;50;https://www.wanikani.com/kanji/%E5%BD%B0
 2097;諮;Consult;シ;はか;;onyomi;50;https://www.wanikani.com/kanji/%E8%AB%AE
 2089;廷;Courts;テイ;;;onyomi;50;https://www.wanikani.com/kanji/%E5%BB%B7
 2092;蟹;Crab;;かに;;kunyomi;50;https://www.wanikani.com/kanji/%E8%9F%B9
@@ -1699,7 +1713,7 @@
 2084;峰;Summit;ホウ;みね;;onyomi;50;https://www.wanikani.com/kanji/%E5%B3%B0
 2111;墳;Tomb;フン;;;onyomi;50;https://www.wanikani.com/kanji/%E5%A2%B3
 2114;搬;Transport;ハン;;;onyomi;50;https://www.wanikani.com/kanji/%E6%90%AC
-2086;邪;Wicked;ジャ;よこし;;onyomi;50;https://www.wanikani.com/kanji/%E9%82%AA
+2086;邪;Wicked;ジャ;よこしま;;onyomi;50;https://www.wanikani.com/kanji/%E9%82%AA
 2130;肯;Agreement, Consent;コウ;がえんじ;;onyomi;51;https://www.wanikani.com/kanji/%E8%82%AF
 2153;浦;Bay;ホ;うら;;kunyomi;51;https://www.wanikani.com/kanji/%E6%B5%A6
 2123;挟;Between;キョウ, ショウ;はさ;;kunyomi;51;https://www.wanikani.com/kanji/%E6%8C%9F
@@ -1743,7 +1757,7 @@
 2163;鎖;Chain;サ;くさり, とざ;;onyomi;52;https://www.wanikani.com/kanji/%E9%8E%96
 2162;賠;Compensation, Compensate;バイ;;;onyomi;52;https://www.wanikani.com/kanji/%E8%B3%A0
 2171;恒;Constant, Always;コウ;つね, つねに;;onyomi;52;https://www.wanikani.com/kanji/%E6%81%92
-2186;綾;Design;リン;あや;;onyomi;52;https://www.wanikani.com/kanji/%E7%B6%BE
+2186;綾;Design;リン;あや;;kunyomi;52;https://www.wanikani.com/kanji/%E7%B6%BE
 2180;没;Die;ボツ, モツ;おぼ, しず, ない;;onyomi;52;https://www.wanikani.com/kanji/%E6%B2%A1
 2160;擁;Embrace;ヨウ;;;onyomi;52;https://www.wanikani.com/kanji/%E6%93%81
 2182;遭;Encounter, Meet;ソウ;あ;;onyomi;52;https://www.wanikani.com/kanji/%E9%81%AD
@@ -1766,7 +1780,7 @@
 2170;芳;Perfume;ホウ;かんば;;onyomi;52;https://www.wanikani.com/kanji/%E8%8A%B3
 2156;貫;Pierce, Sushi Counter;カン;つらぬ, ぬき, ぬ;;onyomi;52;https://www.wanikani.com/kanji/%E8%B2%AB
 2177;糧;Provisions;リョウ, ロウ;かて;;onyomi;52;https://www.wanikani.com/kanji/%E7%B3%A7
-2187;颯;Quick, Sudden;サツ, ソウ;さっ;;onyomi;52;https://www.wanikani.com/kanji/%E9%A2%AF
+2187;颯;Quick, Sudden;サツ, ソウ;さっ, はやて;;onyomi;52;https://www.wanikani.com/kanji/%E9%A2%AF
 2179;慢;Ridicule, Laziness;マン;;;onyomi;52;https://www.wanikani.com/kanji/%E6%85%A2
 2169;膨;Swell;ボウ;ふく;;onyomi;52;https://www.wanikani.com/kanji/%E8%86%A8
 2176;遇;Treatment;グウ;あ;;onyomi;52;https://www.wanikani.com/kanji/%E9%81%87
@@ -1797,7 +1811,7 @@
 2208;虐;Oppress;ギャク;しいた;;onyomi;53;https://www.wanikani.com/kanji/%E8%99%90
 2214;戴;Receive;タイ;いただ;;onyomi;53;https://www.wanikani.com/kanji/%E6%88%B4
 2200;艇;Rowboat;テイ;;;onyomi;53;https://www.wanikani.com/kanji/%E8%89%87
-2195;丹;Rust Colored, Red;タン;に;;onyomi;53;https://www.wanikani.com/kanji/%E4%B8%B9
+2195;丹;Rust Colored, Red, Sincerity ;タン;に;;onyomi;53;https://www.wanikani.com/kanji/%E4%B8%B9
 2215;緋;Scarlet;ヒ;あか, あけ;;onyomi;53;https://www.wanikani.com/kanji/%E7%B7%8B
 2203;准;Semi;ジュン;;;onyomi;53;https://www.wanikani.com/kanji/%E5%87%86
 2197;舗;Shop, Store;ホ;;;onyomi;53;https://www.wanikani.com/kanji/%E8%88%97
