@@ -1,5 +1,6 @@
 node_modules/
-.idea/
+.history
 
 # misc
 .DS_Store
+.idea/
