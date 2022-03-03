@@ -21,6 +21,6 @@ export const meaningComparator = createComparator(
 );
 
 export const subjectComparator = (a, b) => {
-  // sort by level ascending and then meaning ascending to match the WaniKani website
+  // sort by level ascending and then meaning ascending to match WaniKani
   return levelComparator(a, b) || meaningComparator(a, b);
 };

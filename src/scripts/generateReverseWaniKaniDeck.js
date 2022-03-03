@@ -6,33 +6,34 @@ import { convertObjectsToCsvString } from '../utils/csvUtils';
 
 const generateReverseWaniKaniDeck = async () => {
   const subjects = await getSubjectsAsync('vocabulary');
-  const sortedSubjects = subjects.sort(subjectComparator);
 
-  const parsedSubjects = sortedSubjects.map(subject => {
-    const { id, data } = subject;
-    const {
-      characters,
-      meanings,
-      readings,
-      parts_of_speech,
-      level,
-      document_url,
-    } = data;
+  const parsedSubjects = subjects
+    .sort(subjectComparator)
+    .filter(({ data }) => !data.hidden_at)
+    .map(({ id, data }) => {
+      const {
+        characters,
+        meanings,
+        readings,
+        parts_of_speech,
+        level,
+        document_url,
+      } = data;
 
-    return {
-      id,
-      characters,
-      meanings: [
-        ...meanings.filter(m => m.primary),
-        ...meanings.filter(m => !m.primary),
-      ].map(m => m.meaning),
-      firstReading: readings.map(r => r.reading)[0],
-      readings: readings.map(r => r.reading),
-      partsOfSpeech: parts_of_speech,
-      level,
-      url: document_url,
-    };
-  });
+      return {
+        id,
+        characters,
+        meanings: [
+          ...meanings.filter(m => m.primary),
+          ...meanings.filter(m => !m.primary),
+        ].map(m => m.meaning),
+        firstReading: readings.map(r => r.reading)[0],
+        readings: readings.map(r => r.reading),
+        partsOfSpeech: parts_of_speech,
+        level,
+        url: document_url,
+      };
+    });
 
   const csvData = parsedSubjects.map(subject => {
     const {
