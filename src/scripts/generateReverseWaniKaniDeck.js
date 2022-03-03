@@ -2,35 +2,63 @@ import { getSubjectsAsync } from '../utils/waniKaniAPI';
 import { subjectComparator } from '../utils/collectionUtils';
 import { removeUnderscores, toCommaString } from '../utils/stringUtils';
 import { downloadFile } from '../utils/fileUtils';
-import { objectsToCsvString } from '../utils/csvUtils';
+import { convertObjectsToCsvString } from '../utils/csvUtils';
 
 const generateReverseWaniKaniDeck = async () => {
   const subjects = await getSubjectsAsync('vocabulary');
   const sortedSubjects = subjects.sort(subjectComparator);
 
-  const parsedSubjects = sortedSubjects.map(({ id, data }) => ({
-    id,
-    characters: data.characters,
-    meanings: data.meanings.map(m => m.meaning),
-    firstReading: data.readings.map(r => r.reading)[0],
-    readings: data.readings.map(r => r.reading),
-    partsOfSpeech: data.parts_of_speech,
-    level: data.level,
-    url: data.document_url,
-  }));
+  const parsedSubjects = sortedSubjects.map(subject => {
+    const { id, data } = subject;
+    const {
+      characters,
+      meanings,
+      readings,
+      parts_of_speech,
+      level,
+      document_url,
+    } = data;
 
-  const formattedSubjects = parsedSubjects.map(d => ({
-    id: d.id,
-    characters: d.characters,
-    meanings: toCommaString(d.meanings),
-    firstReading: d.firstReading,
-    readings: toCommaString(d.readings),
-    partsOfSpeech: toCommaString(d.partsOfSpeech.map(removeUnderscores)),
-    level: d.level,
-    url: d.url,
-  }));
+    return {
+      id,
+      characters,
+      meanings: [
+        ...meanings.filter(m => m.primary),
+        ...meanings.filter(m => !m.primary),
+      ].map(m => m.meaning),
+      firstReading: readings.map(r => r.reading)[0],
+      readings: readings.map(r => r.reading),
+      partsOfSpeech: parts_of_speech,
+      level,
+      url: document_url,
+    };
+  });
 
-  const outputCsvString = await objectsToCsvString(formattedSubjects, ';');
+  const csvData = parsedSubjects.map(subject => {
+    const {
+      id,
+      characters,
+      meanings,
+      firstReading,
+      readings,
+      partsOfSpeech,
+      level,
+      url,
+    } = subject;
+
+    return {
+      id,
+      characters,
+      meanings: toCommaString(meanings),
+      firstReading,
+      readings: toCommaString(readings),
+      partsOfSpeech: toCommaString(partsOfSpeech.map(removeUnderscores)),
+      level,
+      url,
+    };
+  });
+
+  const outputCsvString = await convertObjectsToCsvString(csvData, ';');
 
   downloadFile('reverse_wk_deck.csv', outputCsvString);
 };
